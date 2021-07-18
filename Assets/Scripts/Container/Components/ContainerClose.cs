@@ -16,9 +16,6 @@ public class ContainerClose : ContainerComponentBase, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        //if (eventData.pointerCurrentRaycast.gameObject == gameObject)
-        {
-            container.Destroy();
-        }
+        container.Destroy();
     }
 }

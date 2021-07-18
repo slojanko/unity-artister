@@ -211,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   isDirty: 0
-  selectedBrush: {fileID: 21300000, guid: e0f9050c8f8b63e498e26977a798683e, type: 3}
+  selectedBrush: {fileID: 21300000, guid: 89bd09ce6617fc344903e0a1e33653b0, type: 3}
 --- !u!1 &853579794
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +402,7 @@ MonoBehaviour:
   texture: {fileID: 0}
   canvasTexture: {fileID: 0}
   effectTexture: {fileID: 0}
+  distanceBeforePaintHappens: 5
 --- !u!1 &2041426721
 GameObject:
   m_ObjectHideFlags: 0

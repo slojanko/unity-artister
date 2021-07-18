@@ -9,9 +9,9 @@ public class WindowBase : MonoBehaviour
     [SerializeField]
     private string title;
 
-
     public virtual void Awake()
     {
+        UpdateValues();
     }
 
     public virtual void Update()

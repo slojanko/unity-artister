@@ -7,13 +7,6 @@ public class WindowCanvas : WindowBase
     [SerializeField]
     private WidgetCanvas canvas;
 
-    public override void Awake()
-    {
-        base.Awake();
-
-        UpdateValues();
-    }
-
     protected override void UpdateValues()
     {
         base.UpdateValues();

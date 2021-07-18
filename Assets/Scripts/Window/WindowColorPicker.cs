@@ -19,13 +19,6 @@ public class WindowColorPicker : WindowBase
     [SerializeField]
     private WidgetColorChannel colorChannelAlpha;
 
-    public override void Awake()
-    {
-        base.Awake();
-
-        UpdateValues();
-    }
-
     protected override void UpdateValues()
     {
         base.UpdateValues();
